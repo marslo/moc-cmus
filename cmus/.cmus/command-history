@@ -1,0 +1,19 @@
+set smart_artist_sort=false
+bind -f browser U browser-up
+bind -f common backspace win-update-cache
+bind -f common , vol -10%
+bind -f common + seek +1m
+bind -f common - seek -1m
+bind -f common . vol +10%
+colorscheme green
+colorscheme cyan
+colorscheme gray-88
+colorscheme gray
+colorscheme green-mono-88
+colorscheme xterm-white
+colorscheme zenburn
+add /home/marslo/Accessories/Music/MP3/Jennifer Warnes - Way Down Deep.flac
+clear -l
+add -q
+clear
+add /home/marslo/Accessories/Music/MP3/
