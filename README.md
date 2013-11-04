@@ -13,4 +13,8 @@ The configuration about MOCP
 
 
 ##Screenshot
-![My_Mocp](https://github.com/woainvzu/MOCP_Config_Marslo/blob/master/MOCP_Screenshot.png?raw=true)
+### Moc (Music on console)
+![My_Mocp](https://github.com/Marslo/Moc-Cmus_Config/blob/master/screenshots/MOCP_Screenshot.png?raw=true)
+
+### Cmus
+![My_Cmus](https://github.com/Marslo/Moc-Cmus_Config/blob/master/screenshots/cmus2.png?raw=true)
