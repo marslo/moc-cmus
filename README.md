@@ -125,7 +125,7 @@ The configuration about MOCP
 
 ##Screenshot
 ### Moc (Music on console)
-![My_Mocp](https://github.com/Marslo/Moc-Cmus_Config/blob/master/screenshots/MOCP_Screenshot.png?raw=true)
+![My_Mocp](https://github.com/Marslo/Moc_Cmus-Config/blob/master/screenshots/mocp.png?raw=true)
 
 ### Cmus
 ![My_Cmus](https://github.com/Marslo/Moc-Cmus_Config/blob/master/screenshots/cmus2.png?raw=true)
