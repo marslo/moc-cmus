@@ -18,13 +18,13 @@ The configuration about MOCP
 - [DEB packages FTP](http://ftp.de.debian.org/pub/debian/pool/main/m/moc/)
 
 ### Errors and Soluctions
-- **error: BerkeleyDB (libdb) not found**
+#### **error: BerkeleyDB (libdb) not found**
 <pre><code>sudo apt-get install libdb++-dev libdb-dev
 </code></pre>
-- **decoder.c:22:18: fatal error: ltdl.h**
+#### **decoder.c:22:18: fatal error: ltdl.h**
 <pre><code>sudo apt-get install libltdl-dev
 </code></pre>
-- **FATAL_ERROR: No valid sound driver!**
+#### **FATAL_ERROR: No valid sound driver!**
     - Error:
         <pre><code>[marslo@MarsloJiao ~]
         $ mocp
