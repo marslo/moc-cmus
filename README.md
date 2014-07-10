@@ -106,8 +106,7 @@ The configuration about MOCP
     </code></pre>
 
 - Check alas-base and alas-utils
-
-    [marslo@MarsloJiao ~]
+    <pre><code>[marslo@MarsloJiao ~]
     $ dpkg -l alsa-base
     Desired=Unknown/Install/Remove/Purge/Hold
     | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
@@ -123,6 +122,7 @@ The configuration about MOCP
     ||/ Name                 Version         Architecture    Description
     +++-====================-===============-===============-==============================================
     ii  alsa-utils           1.0.27.1-1ubunt i386            Utilities for configuring and using ALSA
+    </code></pre>
 
 ##Screenshot
 ### Moc (Music on console)
