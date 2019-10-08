@@ -1,17 +1,22 @@
-Moc-Cmus_Config
+moc and cmus
 ===============
 
 The configuration about MOCP
 
 ##Usage
 - Copy the .moc folder to $HOME
-    <pre><code>$ cp -r .moc ~/
-    </code></pre>
-- If show error: `Configuration file is not secure: /home/marslo/.moc/config`, then set the file mode of config as 755:
-    <pre><code>$ chmod 755 ~/.moc/config
-    </code></pre>
 
-## Build moc by souce code
+    ```bash
+    $ cp -r .moc ~/
+    ```
+
+- If show error: `Configuration file is not secure: /home/marslo/.moc/config`, then set the file mode of config as 755:
+
+    ```bash
+    $ chmod 755 ~/.moc/config
+    ```
+
+## Build moc from souce code
 ### Precondiction:
 - Download source code from [Official Web Site](http://moc.daper.net/download)
 - [moc-2.5.0-beta1](http://ftp.daper.net/pub/soft/moc/unstable/moc-2.5.0-beta1.tar.bz2)
@@ -19,15 +24,20 @@ The configuration about MOCP
 
 ### Errors and Soluctions
 #### **error: BerkeleyDB (libdb) not found**
-<pre><code>sudo apt-get install libdb++-dev libdb-dev
-</code></pre>
+
+```bash
+$ sudo apt-get install libdb++-dev libdb-dev
+```
 #### **decoder.c:22:18: fatal error: ltdl.h**
-<pre><code>sudo apt-get install libltdl-dev
-</code></pre>
+
+```bash
+$ sudo apt-get install libltdl-dev
+```
+
 #### **FATAL_ERROR: No valid sound driver!**
 - Error
 
-    <pre><code>[marslo@MarsloJiao ~]
+    ```bash
     $ mocp
     Running the server...
     Trying OSS...
@@ -58,13 +68,11 @@ The configuration about MOCP
     (gdb) exit
     Undefined command: "exit".  Try "help".
     (gdb) quit
-    </code></pre>
+    ```
 
 - Soluction
-    <pre><code>sudo apt-get install libncurses5-dev libncursesw5-dev libasound2-dev libvorbis-dev libmad0-dev libid3tag0-dev zlib1g-dev libsndfile1-dev libflac-dev libogg-dev libsamplerate0-dev libspeex-dev libmpcdec-dev libsidplay2-dev libsidutils-dev libresid-builder-dev libwavpack-dev libtagc0-dev libcurl4-gnutls-dev libavcodec-dev libavformat-dev libltdl3-dev libtool libmodplug-dev automake1.9 autoconf
-    </code></pre>
 
-    <pre><code>[marslo@MarsloJiao ~]
+    ```bash
     $ sudo apt-get install libncurses5-dev libncursesw5-dev libasound2-dev libvorbis-dev libmad0-dev libid3tag0-dev zlib1g-dev libsndfile1-dev libflac-dev libogg-dev libsamplerate0-dev libspeex-dev libmpcdec-dev libsidplay2-dev libsidutils-dev libresid-builder-dev libwavpack-dev libtagc0-dev libcurl4-gnutls-dev libavcodec-dev libavformat-dev libltdl3-dev libtool libmodplug-dev automake1.9 autoconf
     Reading package lists... Done
     Building dependency tree
@@ -103,10 +111,11 @@ The configuration about MOCP
     Need to get 6,250 kB of archives.
     After this operation, 16.9 MB of additional disk space will be used.
     ....
-    </code></pre>
+    ```
 
 - Check alas-base and alas-utils
-    <pre><code>[marslo@MarsloJiao ~]
+
+    ```bash
     $ dpkg -l alsa-base
     Desired=Unknown/Install/Remove/Purge/Hold
     | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
@@ -114,7 +123,7 @@ The configuration about MOCP
     ||/ Name                 Version         Architecture    Description
     +++-====================-===============-===============-==============================================
     ii  alsa-base            1.0.25+dfsg-0ub all             ALSA driver configuration files
-    [marslo@MarsloJiao ~]
+
     $ dpkg -l alsa-utils
     Desired=Unknown/Install/Remove/Purge/Hold
     | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
@@ -122,7 +131,7 @@ The configuration about MOCP
     ||/ Name                 Version         Architecture    Description
     +++-====================-===============-===============-==============================================
     ii  alsa-utils           1.0.27.1-1ubunt i386            Utilities for configuring and using ALSA
-    </code></pre>
+    ```
 
 ##Screenshot
 ### Moc (Music on console)
