@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [moc and cmus](#moc-and-cmus)
+  - [Build moc from souce code](#build-moc-from-souce-code)
+    - [Precondiction:](#precondiction)
+    - [Errors and Soluctions](#errors-and-soluctions)
+      - [**error: BerkeleyDB (libdb) not found**](#error-berkeleydb-libdb-not-found)
+      - [**decoder.c:22:18: fatal error: ltdl.h**](#decoderc2218-fatal-error-ltdlh)
+      - [**FATAL_ERROR: No valid sound driver!**](#fatal_error-no-valid-sound-driver)
+    - [Moc (Music on console)](#moc-music-on-console)
+    - [Cmus](#cmus)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 moc and cmus
 ===============
 
